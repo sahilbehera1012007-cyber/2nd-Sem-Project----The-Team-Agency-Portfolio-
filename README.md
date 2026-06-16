@@ -1,84 +1,143 @@
-# The Team Agency Portfolio
+<div align="center">
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=0E7490&center=true&vCenter=true&width=700&lines=The+Team+Agency+Portfolio"
+    alt="Typing SVG"
+  />
+</p>
 
-A responsive **DOM & Layout** project that presents a fictional agency portfolio for a team of 5–6 members. The website is built as a data-driven landing page that highlights team profiles, technical skills, GitHub links, featured projects, a light/dark theme toggle, and a contact form with client-side validation.[page:1]
+<p>
+  <b>A responsive fictional agency portfolio built with HTML, CSS, and JavaScript DOM rendering.</b>
+</p>
 
-## Overview
+<p>
+  <a href="https://github.com/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-/stargazers">
+    <img src="https://img.shields.io/github/stars/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-?style=for-the-badge&color=0ea5e9" alt="Stars" />
+  </a>
+  <a href="https://github.com/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-/network/members">
+    <img src="https://img.shields.io/github/forks/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-?style=for-the-badge&color=14b8a6" alt="Forks" />
+  </a>
+  <a href="https://github.com/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/status-learning%20project-f59e0b?style=for-the-badge" alt="Status" />
+  </a>
+</p>
 
-The Team Agency Portfolio is designed to demonstrate core front-end development concepts using semantic HTML, modern CSS, and JavaScript DOM manipulation. The project focuses on layout structuring, reusable data rendering, theme persistence, and interactive form validation.[page:1]
+</div>
 
-## Features
+---
 
-- Data-driven rendering of 5–6 team member cards.
-- Each member card includes avatar, name, role, skills, and GitHub profile link.
-- Dedicated project showcase section for displaying agency work.
-- Responsive landing page layout for desktop, tablet, and mobile screens.
-- Light/Dark theme toggle for better user experience.
-- Theme preference saved using `localStorage`.
-- Contact form with client-side validation for fields like name, email, and message.
-- Clean UI with semantic structure and accessible design practices.[page:1]
+## 📌 Overview
 
-## Tech Stack
+**The Team Agency Portfolio** is a responsive front-end project designed as a fictional agency landing page for a team of 5–6 members. It focuses on clean layout structure, data-driven rendering, interactive UI behavior, theme switching, and contact-form validation.
 
-- **HTML5** for semantic page structure
-- **CSS3** for styling, layout, and responsiveness
-- **JavaScript (DOM)** for dynamic rendering, theme toggle, and form validation
-- **localStorage** for saving theme preference[page:1]
+---
 
-## Learning Goals
+## 🚀 Features
 
-This project was created to practice and demonstrate:
+- 👥 Dynamic rendering of **team member cards**
+- 🧠 Structured member data using **JavaScript objects/arrays**
+- 🛠️ Each card includes **avatar, name, role, skills, and GitHub link**
+- 📂 Dedicated **project showcase** section
+- 📱 Fully **responsive layout** for desktop, tablet, and mobile
+- 🌙 **Light/Dark mode toggle**
+- 💾 Theme preference stored using **localStorage**
+- ✅ **Client-side form validation** for contact inputs
+- 🎨 Clean, semantic, and beginner-friendly UI structure
 
-- DOM manipulation using JavaScript
+---
+
+## 🧰 Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech stack icons" />
+</p>
+
+- **HTML5** — semantic page structure
+- **CSS3** — styling, layout, responsiveness
+- **JavaScript (DOM)** — rendering, interactions, validation
+- **localStorage** — theme persistence
+
+---
+
+## 🎯 Learning Goals
+
+This project was built to practice:
+
+- DOM manipulation with JavaScript
 - Data-driven UI rendering
-- Responsive web layout design
-- Light/Dark mode implementation
-- Form validation on the client side
-- Structuring a real-world landing page project[page:1]
+- Responsive web design
+- Light/Dark theme implementation
+- Form validation
+- Real-world landing page structure
 
-## Project Structure
+---
+
+## 🧱 Project Structure
 
 ```bash
 The-Team-Agency-Portfolio/
 │── index.html
 │── style.css
-│── script.js
-│── assets/
-│   ├── avatars/
-│   ├── icons/
-│   └── images/
+│── app.js
 └── README.md
 ```
 
-## Sections Included
+---
+
+## 🖥️ Sections Included
 
 ### 1. Hero Section
-Introduces the agency with a heading, short description, and call-to-action button.
+Introduces the agency with a headline, supporting text, and call-to-action.
 
 ### 2. Team Members Section
-Displays 5–6 team members dynamically using JavaScript objects/arrays. Each card includes:
-
-- Avatar
-- Name
-- Role
-- Skills
-- GitHub profile link
+Displays multiple team members dynamically from JavaScript data.
 
 ### 3. Projects Showcase
-Highlights the projects completed by the team in a visually organized layout.
+Highlights featured agency work in a structured section.
 
 ### 4. Theme Toggle
-Allows users to switch between light and dark mode, with the selected theme stored in `localStorage`.
+Lets users switch between light and dark mode.
 
 ### 5. Contact Form
-Includes client-side validation to ensure correct user input before submission.[page:1]
+Validates user input before submission using client-side JavaScript.
 
-## How It Works
+---
+
+## ⚙️ How It Works
 
 ### Team Data Rendering
-Team member information is stored in JavaScript as structured data and rendered dynamically into the DOM.
+Team member information is stored in JavaScript and rendered into the DOM dynamically.
 
 ### Theme Persistence
-The website checks saved theme settings from `localStorage` and applies the selected mode when the page loads.
+The selected theme is saved and reused through `localStorage`.
 
 ### Form Validation
-JavaScript validates user input for required fields, correct email format, and empty message handling before allowing submission.[page:1]
+The form checks required fields, email formatting, and empty message cases before allowing submission.
+
+---
+
+## 🌟 Why This Project Matters
+
+This project is a solid practice build for improving:
+
+- front-end fundamentals
+- DOM control
+- layout skills
+- responsive design thinking
+- interactive UI behavior
+
+It works especially well as a semester project or beginner portfolio piece.
+
+---
+
+## 📬 Contact
+
+If you want to connect or share feedback, use the contact section in the project or visit your GitHub profile.
+
+---
+
+<div align="center">
+
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:14b8a6&height=120&section=footer)
+
+</div>
