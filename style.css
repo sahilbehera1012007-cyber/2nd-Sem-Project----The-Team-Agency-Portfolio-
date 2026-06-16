@@ -1,1 +1,29 @@
 
+:root{
+    --bg:#f9f9f9;
+    --text:#111;
+}
+
+body{
+    margin:0;
+    font-family:Segoe UI,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.btn{
+    padding:12px 24px;
+    text-decoration:none;
+}
