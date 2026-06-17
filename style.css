@@ -56,13 +56,20 @@ header{
     width:60px;
     height:60px;
     border-radius:50%;
-    background:#3b82f6;
+    background:
+        3b82f6;
     color:white;
     display:flex;
     justify-content:center;
     align-items:center;
     margin:auto;
 }
+
+/* disha */
+
+[data-theme="light"] { ... }
+
+[data-theme="dark"] { ... }                
 /*disha*/
 section{
     padding:80px 60px;
