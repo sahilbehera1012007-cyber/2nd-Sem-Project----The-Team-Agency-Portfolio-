@@ -63,3 +63,18 @@ header{
     align-items:center;
     margin:auto;
 }
+/*disha*/
+[data-theme="light"]{
+    --bg:#f9f9f9;
+    --bg-card:#fff;
+    --text:#111;
+    --accent:#3b82f6;
+}
+
+[data-theme="dark"]{
+    --bg:#181818;
+    --bg-card:#282828;
+    --text:#f0f0f0;
+    --accent:#5b9cf6;
+}
+
