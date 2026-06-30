@@ -1,158 +1,283 @@
-<!-- Sahil - Added Style to hero section-->
-<!-- start -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PW Innovators | Agency Portfolio</title>
+    <meta name="description"
+        content="PW Innovators — a student-led digital agency portfolio showcasing web projects, team members, and skills.">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <span class="logo"><i>PW Innovators</i></span>
+    <!-- ===== HEADER / NAV ===== -->
+    <header>
+        <span class="logo"><i>PW Innovators</i></span>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-    </nav>
+            <!-- Dark / Light toggle button -->
+            <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </nav>
+    </header>
 
-    <button id="theme-toggle">🌙</button>
-</header>
+    <main>
 
-<section class="hero" id="home">
-    <p class="subtitle">------ WELCOME</p>
-    <h1>We are <b>PW Innovators</b></h1>
-    <h2>Digital Agency</h2>
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="home">
+            <p class="subtitle">------ WELCOME</p>
+            <h1>We are <b>PW Innovators</b></h1>
+            <h2>Digital Agency</h2>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Our Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Work With Us</a>
+            </div>
+        </section>
 
-    <div class="hero-buttons">
-        <a href="#projects" class="btn btn-primary">Our Portfolio</a>
-        <a href="#contact" class="btn btn-outline">Work With Us</a>
-    </div>
-</section>
-    
-    <!-- Push 2 - Bhagyashree Patil: Add Project showcase section -->
-    <section id="projects">
+        <!-- ===== PROJECTS ===== -->
+        <section id="projects">
+            <p class="subtitle">------ FEATURED WORKS</p>
+            <h2 class="section-title">Our Projects</h2>
+            <p class="section-desc">A curated collection of web applications and design work created by our agency team.
+            </p>
 
-        <!-- Section Header -->
-    <p class="subtitle">------ FEATURED WORKS</p>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #6366f1, #4338ca);"></div>
+                    <div class="project-info">
+                        <span class="badge">Frontend</span>
+                        <h3>Sahil Behera</h3>
+                        <p>Expense Tracker: A web application to track and manage personal expenses.</p>
+                        <a href="https://github.com/sahilbehera1012007-cyber/2nd-Sem-Project---Expense-Tracker" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
 
-    <h2 class="section-title">Our Projects</h2>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);"></div>
+                    <div class="project-info">
+                        <span class="badge">Full-Stack</span>
+                        <h3>Bhagyashree Patil</h3>
+                        <p>Quiz Application: An interactive quiz platform with dynamic questions and scoring.</p>
+                        <a href="https://github.com/bhagyapatil486/2nd-Sem-Project----Quiz-Application" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
 
-        <!-- Section Description -->
-    <p class="section-desc">
-        A curated collection of web applications and designs.
-    </p>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #f43f5e, #be123c);"></div>
+                    <div class="project-info">
+                        <span class="badge">UI/UX & APIs</span>
+                        <h3>Disha Rai</h3>
+                        <p>GitHub Developer Explorer: A multi-endpoint API tool to explore developer profiles.</p>
+                        <a href="https://github.com/disharai123a-oss/GitHub-Developer-Explorer-Multi-Endpoint-APIs" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
 
-    <div class="projects-grid">
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #10b981, #047857);"></div>
+                    <div class="project-info">
+                        <span class="badge">Backend & DevOps</span>
+                        <h3>Uttkarsh Chambiyal</h3>
+                        <p>The Team Agency Portfolio: A collaborative portfolio showcasing agency members and projects.</p>
+                        <a href="https://github.com/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
 
-         <!-- Project Card 1 -->
-        <div class="project-card">
-            <div class="project-img"></div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #f59e0b, #b45309);"></div>
+                    <div class="project-info">
+                        <span class="badge">Frontend</span>
+                        <h3>Alok Kumar Mahato</h3>
+                        <p>Kanban Board: A drag-and-drop task management tool with a clean UI and state persistence.</p>
+                        <a href="https://github.com/alokrm2008-a11y/kanban-board" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
 
-            <div class="project-info">
-                <span class="badge">Web Application</span>
-                <h3>Custom Portfolio System</h3>
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #8b5cf6, #5b21b6);"></div>
+                    <div class="project-info">
+                        <span class="badge">Mobile App</span>
+                        <h3>Abhishek Deshmukh</h3>
+                        <p>Live News Feed: A real-time news aggregation app built with Kotlin and APIs.</p>
+                        <a href="https://github.com/abhishek-d19/Live-News-Feed-" target="_blank"
+                            class="btn btn-outline btn-sm">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <p>
-                    Modern portfolio engine optimized for showcasing work.
-                </p>
 
-                       <!-- Project Link Button -->
-                <a href="#" class="btn btn-outline btn-sm">
-                    View Project →
-                </a>
+        <!-- ===== TEAM ===== -->
+        <section id="team">
+            <p class="subtitle">------ THE AGENCY EXPERTS</p>
+            <h2 class="section-title">Our Agency Team</h2>
+            <p class="section-desc">A team of specialists across frontend, full-stack, design, systems architecture, and
+                mobile engineering.</p>
+
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="team-card">
+                    <div class="avatar avatar-indigo">SB</div>
+                    <h4>Sahil Behera</h4>
+                    <p class="role">Lead Frontend Developer</p>
+                    <div class="skills">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>UI Design</span>
+                    </div>
+                    <a href="https://github.com/sahilbehera1012007-cyber/2nd-Sem-Project---Expense-Tracker"
+                        target="_blank" class="github-link">GitHub ↗</a>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="team-card">
+                    <div class="avatar avatar-blue">BP</div>
+                    <h4>Bhagyashree Patil</h4>
+                    <p class="role">Full-Stack Developer</p>
+                    <div class="skills">
+                        <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+                    </div>
+                    <a href="https://github.com/bhagyapatil486/2nd-Sem-Project----Quiz-Application" target="_blank"
+                        class="github-link">GitHub ↗</a>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="team-card">
+                    <div class="avatar avatar-rose">HR</div>
+                    <h4>Disha Rai</h4>
+                    <p class="role">UI/UX Designer</p>
+                    <div class="skills">
+                        <span>Figma</span><span>CSS Grid</span><span>Prototyping</span><span>A11y</span>
+                    </div>
+                    <a href="https://github.com/disharai123a-oss/GitHub-Developer-Explorer-Multi-Endpoint-APIs"
+                        target="_blank" class="github-link">GitHub ↗</a>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="team-card">
+                    <div class="avatar avatar-emerald">UC</div>
+                    <h4>Uttkarsh Chambiyal</h4>
+                    <p class="role">Backend & DevOps</p>
+                    <div class="skills">
+                        <span>Python</span><span>SQL</span><span>Docker</span><span>REST APIs</span>
+                    </div>
+                    <a href="https://github.com/Uttkarshchambiyal/2nd-Sem-Project----The-Team-Agency-Portfolio-"
+                        target="_blank" class="github-link">GitHub ↗</a>
+                </div>
+
+                <!-- Member 5 -->
+                <div class="team-card">
+                    <div class="avatar avatar-purple">AM</div>
+                    <h4>Alok Kumar Mahato</h4>
+                    <p class="role">Frontend Engineer</p>
+                    <div class="skills">
+                        <span>Tailwind</span><span>JavaScript</span><span>SPA</span><span>Git</span>
+                    </div>
+                    <a href="https://github.com/alokrm2008-a11y/kanban-board" target="_blank" class="github-link">GitHub
+                        ↗</a>
+                </div>
+
+                <!-- Member 6 -->
+                <div class="team-card">
+                    <div class="avatar avatar-amber">AD</div>
+                    <h4>Abhishek Deshmukh</h4>
+                    <p class="role">Mobile App Developer</p>
+                    <div class="skills">
+                        <span>Flutter</span><span>Kotlin</span><span>Firebase</span><span>APIs</span>
+                    </div>
+                    <a href="https://github.com/abhishek-d19/Live-News-Feed-" target="_blank" class="github-link">GitHub
+                        ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact">
+            <p class="subtitle">--- WORK WITH US ---</p>
+            <h2 class="section-title">Let's Build Something Great</h2>
+            <p class="section-desc">Ready to start your project? Drop us a line and we will get back to you.</p>
+
+            <div class="contact-wrapper">
+                <!-- Info Cards -->
+                <div class="contact-info">
+                    <a href="mailto:uttkarshchambiyal26@gmail.com" class="info-card">
+                        <strong>📧 Email</strong>
+                        <span>agency@pwioi.edu.in</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/uttkarsh-chambiyal-3495a8380/" target="_blank"
+                        class="info-card">
+                        <strong>💼 LinkedIn</strong>
+                        <span>PW-INNOVATORS-AGENCY</span>
+                    </a>
+                    <a href="https://www.google.co.in/maps/place/Bengaluru,+Karnataka" target="_blank"
+                        class="info-card">
+                        <strong>📍 Location</strong>
+                        <span>PW IOI campus, Bengaluru</span>
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required minlength="2">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your message..." required minlength="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>PW Innovators</h3>
+                <p>Crafting accessible, robust, and beautiful digital solutions as a collaborative student agency.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <a href="https://github.com/Uttkarshchambiyal" target="_blank">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/uttkarsh-chambiyal-3495a8380/" target="_blank">LinkedIn ↗</a>
+                <a href="mailto:uttkarshchambiyal26@gmail.com">Email ↗</a>
             </div>
         </div>
-
-        <!-- Project Card 2 -->
-        <div class="project-card">
-            <div class="project-img"></div>
-
-            <div class="project-info">
-                <span class="badge">E-Commerce UI</span>
-                <h3>Amazon Storefront Clone</h3>
-
-                <p>
-                    Responsive storefront clone built using reusable UI.
-                </p>
-
-                <!-- Project Link Button -->
-                <a href="#" class="btn btn-outline btn-sm">
-                    View Project →
-                </a>
-            </div>
+        <div class="footer-bottom">
+            <p>© 2026 PW Innovators Agency. All rights reserved.</p>
+            <p>Made with ♥ by <b><i>PW INNOVATORS</i></b></p>
         </div>
+    </footer>
 
-    </div>
-</section>
-
-    <!-- Push 4 - Alok Kumar: Add Team section -->
-    <section id="team">
-
-    <h2 class="section-title">
-        Our Agency Team
-    </h2>
-
-    <div class="team-grid">
-
-    <div class="team-card">
-        <div class="avatar">SB</div>
-        <h4>Sahil Behera</h4>
-        <p>Lead Frontend Developer</p>
-    </div>
-
-    <div class="team-card">
-        <div class="avatar">BP</div>
-        <h4>Bhagyashree Patil</h4>
-        <p>Full Stack Developer</p>
-    </div>
-
-    <div class="team-card">
-        <div class="avatar">UC</div>
-        <h4>Uttkarsh Chambiyal</h4>
-        <p>Backend & DevOps</p>
-    </div>
-
-    </div>
-
-    </section>
-
-    <!-- Push 5 - Uttkarsh Chambiyal: Add Contact section with form validation -->
-    <section id="contact">
-    <h2 class="section-title">Let's Build Something Great</h2>
-
-    <form id="contact-form">
-
-        <input
-            type="text"
-            id="name"
-            placeholder="Name"
-            required>
-
-        <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            required>
-
-        <textarea
-            id="message"
-            placeholder="Message"
-            required></textarea>
-
-        <button type="submit"
-            class="btn btn-primary">
-            Send Message
-        </button>
-
-    </form>
-
-</section>
-
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
